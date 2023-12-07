@@ -7,10 +7,12 @@ import About from './components/About'
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Skills from './components/Skills'
+import NavBar from './components/NavBar'
 
 function App() {
   return (
     <div>
+      <NavBar />
       <Header />
       <img src={myProfile} className='myprofilepic' alt="profile_picture" />
       <About />

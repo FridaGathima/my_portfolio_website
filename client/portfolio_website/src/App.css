@@ -15,6 +15,38 @@
 .myprofilepic:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
+.js {
+  height: 5em;
+}
+
+.jslogos {
+  height: 5em;
+}
+
+.pylogos {
+  height: 5em;
+}
+
+.react {
+  height: 5em;
+}
+
+.bootstrap {
+  height: 5em;
+}
+
+.python {
+  height: 5em;
+}
+.tailwind {
+  height: 2em;
+}
+
+.techstack {
+  display: flex;
+}
+
 /* .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
