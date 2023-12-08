@@ -8,12 +8,15 @@ import tailwindlogo from '../assets/tailwindcss4.svg'
 
 const Skills = () => {
   return (
-    <div className='techstack'>
-        <img src={htmlcss} alt="htmlcssjs" className='jslogos' />
-        <img src={reactlogo} alt="react" className='react' />
-        <img src={pythonflask} alt="Python and Flask" className='pylogos'/>
-        <img src={bootstraplogo} alt="Bootstrap" className='bootstrap' />
-        <img src={tailwindlogo} alt="Tailwind CSS" className='tailwind' />
+    <div>
+      <h2>Technologies</h2>
+      <div className='techstack'>
+          <img src={htmlcss} alt="htmlcssjs" className='jslogos' />
+          <img src={reactlogo} alt="react" className='react' />
+          <img src={pythonflask} alt="Python and Flask" className='pylogos'/>
+          <img src={bootstraplogo} alt="Bootstrap" className='bootstrap' />
+          <img src={tailwindlogo} alt="Tailwind CSS" className='tailwind' />
+      </div>
     </div>
   )
 }

@@ -6,9 +6,10 @@ const Contact = () => {
       <h2>Contact Me</h2>
       <p>Email: ndutafrida@gmail.com</p>
       <p>Phone Number: +254720948464</p>
-      <p>LinkedIn: www.linkedin.com/in/fridagathima</p>
-      <a href="www.linkedin.com/in/fridagathima">www.linkedin.com/in/fridagathima</a>
-      <p>GitHub: https://github.com/FridaGathima</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/fridagathima" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/fridagathima</a></p>
+      
+      <p>GitHub:  <a href="https://github.com/FridaGathima" target="_blank" rel="noopener noreferrer">github.com/FridaGathima</a></p>
+     
     </section>
   );
 };

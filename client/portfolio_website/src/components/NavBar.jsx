@@ -1,16 +1,34 @@
-import React from 'react'
+// src/components/Navbar.js
+import React from 'react';
 
-const NavBar = () => {
+const Navbar = ({ onSectionChange }) => {
   return (
-    <div>
-        <ul>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-        </ul>   
+    <nav>
+      <ul className='navbarul'>
+        <li onClick={() => onSectionChange('home')}>Home</li>
+        <li onClick={() => onSectionChange('about')}>About</li>
+        <li onClick={() => onSectionChange('portfolio')}>Portfolio</li>
+        <li onClick={() => onSectionChange('contact')}>Contact</li>
+      </ul>
+    </nav>
+  );
+};
 
-    </div>
-  )
-}
+export default Navbar;
 
-export default NavBar
+
+
+// const NavBar = () => {
+//   return (
+//     <nav>
+//         <ul className='navbarul'>
+//             <li>About</li>
+//             <li>Portfolio</li>
+//             <li>Contact</li>
+//         </ul>   
+
+//     </nav>
+//   ) 
+// }
+
+// export default NavBar

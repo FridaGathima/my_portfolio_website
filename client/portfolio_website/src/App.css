@@ -6,7 +6,7 @@
 } */
 
 .myprofilepic {
-  height: 40em;
+  height: 20em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
@@ -16,8 +16,15 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 
+h2 {
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
 .js {
   height: 5em;
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
 .jslogos {
@@ -45,6 +52,13 @@
 
 .techstack {
   display: flex;
+}
+
+.navbarul {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+
 }
 
 /* .logo.react:hover {

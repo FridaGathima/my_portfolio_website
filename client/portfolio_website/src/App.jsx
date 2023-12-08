@@ -10,9 +10,28 @@ import Skills from './components/Skills'
 import NavBar from './components/NavBar'
 
 function App() {
+  const [currentSection, setCurrentSection] = useState('home');
+
+  const handleSectionChange = (section) => {
+    setCurrentSection(section);
+  };
+
+  const renderSection = () => {
+    switch (currentSection) {
+      case 'about':
+        return <About />;
+      case 'portfolio':
+        return <Projects />;
+      case 'contact':
+        return <Contact />;
+      default:
+        return <Header />;
+    }
+  };
   return (
     <div>
-      <NavBar />
+      <NavBar onSectionChange={handleSectionChange} />
+      {renderSection()}
       <Header />
       <img src={myProfile} className='myprofilepic' alt="profile_picture" />
       <About />
