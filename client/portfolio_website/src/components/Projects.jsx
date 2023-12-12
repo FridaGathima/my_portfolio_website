@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () => {
   return (
     <section className="projects">
-      <h2>Projects</h2>
+      <h2><em>Projects</em></h2>
       <h3>SwiftReview : Business Review Website</h3>
       <p>This project combines a Flask API for managing business reviews with a React frontend for a seamless user experience.</p>
       <p><a href="https://swift-review.onrender.com/"  target="_blank" rel="noopener noreferrer">SwiftReview Website</a></p>

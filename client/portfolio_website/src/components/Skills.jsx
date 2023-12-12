@@ -9,7 +9,7 @@ import tailwindlogo from '../assets/tailwindcss4.svg'
 const Skills = () => {
   return (
     <div>
-      <h2>Technologies</h2>
+      <h2><em>Technologies</em></h2>
       <div className='techstack'>
           <img src={htmlcss} alt="htmlcssjs" className='jslogos' />
           <img src={reactlogo} alt="react" className='react' />

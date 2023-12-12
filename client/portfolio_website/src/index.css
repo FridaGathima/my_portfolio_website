@@ -5,12 +5,16 @@ body {
 }
 
 header {
-  background-color: rgb(240, 192, 103);
+  background-color: rgb(207 250 254);
   color: black;
   text-align: center;
   padding: 20px;
   
 }
+
+/* body {
+  background-color: rgb(236 254 255);
+} */
 
 section {
   margin: 20px;
