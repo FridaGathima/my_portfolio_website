@@ -10,7 +10,7 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
-  float: inline-start;
+
 }
 .myprofilepic:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
@@ -49,6 +49,13 @@ h2 {
 .tailwind {
   height: 2em;
 }
+.linkedinicon {
+  height: 2em;
+}
+
+.githubicon {
+  height: 2.4em;
+}
 
 .techstack {
   display: flex;
@@ -60,7 +67,13 @@ h2 {
   justify-content: space-around;
 
 }
+.navbarul li:hover {
+  background-color: chocolate;
+}
 
+.techstack {
+  padding: 20px;
+}
 /* .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }

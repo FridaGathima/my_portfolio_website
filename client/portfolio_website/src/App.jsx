@@ -8,6 +8,8 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Skills from './components/Skills'
 import NavBar from './components/NavBar'
+import Education from './components/Education'
+
 
 function App() {
   const [currentSection, setCurrentSection] = useState('home');
@@ -30,12 +32,12 @@ function App() {
   };
   return (
     <div>
-      <NavBar onSectionChange={handleSectionChange} />
-      {renderSection()}
+      {/* <NavBar onSectionChange={handleSectionChange} />
+      {renderSection()} */}
       <Header />
-      <img src={myProfile} className='myprofilepic' alt="profile_picture" />
       <About />
       <Skills />
+      <Education />
       <Projects />
       <Contact />
     </div>
